@@ -1,0 +1,111 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?5dob7x');
+  src:  url('../fonts/icomoon.eot?5dob7x#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?5dob7x') format('truetype'),
+    url('../fonts/icomoon.woff?5dob7x') format('woff'),
+    url('../fonts/icomoon.svg?5dob7x#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow-right:before {
+  content: "\e900";
+  color: #fff;
+}
+.icon-business-wrapper:before {
+  content: "\e901";
+  color: #fff;
+  font-size: 50px;
+}
+.icon-checklist:before {
+  content: "\e902";
+  color: #fff;
+}
+.icon-checkmark-paragraph:before {
+  content: "\e904";
+  color: #4db282;
+}
+.icon-clients:before {
+  content: "\e905";
+}
+.icon-consulting:before {
+  content: "\e906";
+  color: #4db282;
+}
+.icon-cooperation:before {
+  content: "\e907";
+  color: #4db282;
+}
+.icon-facebook:before {
+  content: "\e908";
+  color: #fff;
+}
+.icon-instagram1:before {
+  content: "\e909";
+  color: #fff;
+}
+.icon-mouthpiece-wrapper:before {
+  content: "\e90a";
+  color: #fff;
+  font-size: 50px;
+}
+.icon-news:before {
+  content: "\e90b";
+  color: #fff;
+}
+.icon-planning:before {
+  content: "\e90c";
+  color: #4db282;
+}
+.icon-rocket:before {
+  content: "\e90d";
+  color: #fff;
+}
+.icon-star:before {
+  content: "\e90e";
+  color: #4db282;
+}
+.icon-successful:before {
+  content: "\e90f";
+}
+.icon-support:before {
+  content: "\e910";
+  color: #4db282;
+}
+.icon-triangle:before {
+  content: "\e911";
+  color: #fff;
+}
+.icon-twitter:before {
+  content: "\e912";
+  color: #fff;
+}
+.icon-phone:before {
+  content: "\e942";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-telegram:before {
+  content: "\ea95";
+}
+.icon-linkedin:before {
+  content: "\eac9";
+}
