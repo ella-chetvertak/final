@@ -11,10 +11,11 @@
 </head>
 <body>
     <main id="container">
-        <header class="header">
+        <img src="img/bg-decor-header.png" alt="decor" class="header-decor-img">
+        <header class="header" id="header">
             <div class="nav-wrapper">
-                <h1 class="main-heading">cmp</h1>
-                <nav>
+                <h1 class="main-heading"><a href="#" class="main-heading-inner">cmp</a></h1>
+                <nav class="header-navigation">
                     <a href="#" class="nav-link">About</a>
                     <a href="#" class="nav-link">Portfolio</a>
                     <a href="#" class="nav-link">Service</a>
@@ -23,6 +24,9 @@
                 </nav>
             </div>
             <button type="button" class="header-button transparent-button">contact</button>
+            <button type="button" class="burger" id="burger">
+                <span class="burger-inner"></span>
+            </button>
         </header>
         <article class="article-wrapper-company">
             <div class="main-text">
@@ -74,6 +78,30 @@
                 <button class="article-button-business main-button" type="button">learn more</button>
             </div>
         </article>
+        <article class="article-cards">
+            <img src="img/bg-decor-cards.png" alt="decor" class="img-decor-cards">
+            <div class="card">
+                <div class="icon-consulting"></div>
+                <h4 class="card-heading">Consulting</h4>
+                <p class="card-text">The sky was cloudless and of a deep dark blue the spectacle before.</p>
+            </div>
+            <div class="card">
+                <div class="icon-planning"></div>
+                <h4 class="card-heading">Planning</h4>
+                <p class="card-text">Apparently we had reached a great height in the atmosphere.</p>
+            </div>
+            <div class="card">
+                <div class="icon-support"></div>
+                <h4 class="card-heading">Support</h4>
+                <p class="card-text">By the same illusion which lifts the horizon of the sea to the level.</p>
+            </div>
+            <div class="card">
+                <div class="icon-cooperation"></div>
+                <h4 class="card-heading">Cooperation</h4>
+                <p class="card-text">Spectator on a hillside, the sable cloud beneath was dished out.</p>
+            </div>
+        </article>
     </main>
+    <script src="js/scripts.js"></script>
 </body>
 </html>
