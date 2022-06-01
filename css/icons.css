@@ -34,9 +34,10 @@
   color: #fff;
   font-size: 50px;
 }
-.icon-checklist:before {
+.icon-feature-wrapper:before {
   content: "\e902";
   color: #fff;
+  font-size: 50px;
 }
 .icon-checkmark-paragraph:before {
   content: "\e904";
