@@ -44,8 +44,9 @@
   color: #4db282;
   font-size: 24px;
 }
-.icon-clients:before {
+.icon-clients-wrapper:before {
   content: "\e905";
+  font-size: 32px;
 }
 .icon-consulting:before {
   content: "\e906";
@@ -76,16 +77,18 @@
   content: "\e90c";
   color: #4db282;
 }
-.icon-rocket:before {
+.icon-rocket-wrapper:before {
   content: "\e90d";
   color: #fff;
+  font-size: 44px;
 }
 .icon-star:before {
   content: "\e90e";
   color: #4db282;
 }
-.icon-successful:before {
+.icon-successful-wrapper:before {
   content: "\e90f";
+  font-size: 32px;
 }
 .icon-support:before {
   content: "\e910";
