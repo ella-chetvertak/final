@@ -69,9 +69,10 @@
   color: #fff;
   font-size: 50px;
 }
-.icon-news:before {
+.icon-news-wrapper:before {
   content: "\e90b";
   color: #fff;
+  font-size: 44px;
 }
 .icon-planning:before {
   content: "\e90c";
@@ -94,9 +95,10 @@
   content: "\e910";
   color: #4db282;
 }
-.icon-triangle:before {
+.icon-triangle-wrapper:before {
   content: "\e911";
   color: #fff;
+  font-size: 35px;
 }
 .icon-twitter:before {
   content: "\e912";
