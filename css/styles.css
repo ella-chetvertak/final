@@ -101,7 +101,7 @@ body {
 
     /* COMPANY ARTICLE */
 
-.article-wrapper-company, .article-feature, .article-cards, .article-portfolio, .article-service, .article-strategy, .article-team, .article-wrapper-about, .article-review {
+.article-wrapper-company, .article-feature, .article-cards, .article-portfolio, .article-service, .article-strategy, .article-team, .article-wrapper-about, .article-review, .article-project {
     display: flex;
 }
 
@@ -960,6 +960,10 @@ body {
 
     /* REVIEW ARTICLE */
 
+.article-review {
+    margin-bottom: 240px;
+}
+
 /* OBJECTS */
 
 .main-object-review {
@@ -988,6 +992,10 @@ body {
 }
 
 /* MAIN TEXT */
+
+.article-review .main-text {
+    margin-top: 24px;
+}
 
 .review-box {
     box-shadow: 0px 24px 48px rgba(0, 17, 86, 0.0799083);
@@ -1031,6 +1039,46 @@ body {
 .left-ic {
     transform: rotate(-180deg);
     padding-right: 2px;
+}
+
+    /* PROJECT ARTICLE */
+
+.article-project {
+    padding: 79px 100px 96px;
+    border-radius: 8px;
+    background: var(--secondary-color);
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 108px;
+}
+
+.waves-decor {
+    position: absolute;
+    bottom: -26px;
+    right: 416px;
+}
+
+.article-project .third-heading {
+    color: #fff;
+    max-width: 260px;
+    margin-bottom: 33px;
+}
+
+.button-project {
+    width: 170px;
+    height: 48px;
+    background-color: var(--secondary-object-color);
+    border: 1px var(--secondary-object-color) solid;
+    color: var(--main-color);
+}
+
+.button-project:hover {
+    background-color: transparent;
+    color: #fff;
+}
+
+.article-project .article-text-wrapper {
+    color: #fff;
 }
 
 @media screen and (max-width:375px) {
@@ -1546,7 +1594,7 @@ body {
     
         /* REVIEW ARTICLE */
 
-    /* OBJECTS */
+    /* OBJECTS USING PIXEL PERFECT */
 
     .main-object-review {
         margin: 0px 0 61px 29px;
@@ -1583,6 +1631,14 @@ body {
 
     /* MAIN TEXT */
 
+    .article-review {
+        margin-bottom: 144px;
+    }
+
+    .article-review .main-text {
+        margin-top: 0;
+    }
+
     .review-box {
         margin-bottom: 32px;
     }
@@ -1593,6 +1649,29 @@ body {
 
     .ic-wrapper {
         justify-content: center;
+    }
+
+        /* PROJECT ARTICLE */
+
+    .article-project {
+        padding: 60px 57px 144px;
+        flex-wrap: wrap;
+        align-content: space-between;
+        margin-bottom: 124px;
+    }
+
+    .btn-text {
+        margin-bottom: 59px;
+    }
+
+    .article-project .third-heading {
+        margin-bottom: 20px;
+    }
+
+    .waves-decor {
+        bottom: -15px;
+        right: 57px;
+        width: 215px;
     }
 }
 
