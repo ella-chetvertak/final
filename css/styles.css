@@ -45,6 +45,12 @@ body {
 
 .main-heading {
     margin-right: 42px;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.main-heading:hover {
+    opacity: 0.8;
 }
 
 .main-heading-inner {
@@ -101,7 +107,7 @@ body {
 
     /* COMPANY ARTICLE */
 
-.article-wrapper-company, .article-feature, .article-cards, .article-portfolio, .article-service, .article-strategy, .article-team, .article-wrapper-about, .article-review, .article-project, .article-latest {
+.article-wrapper-company, .article-feature, .article-cards, .article-portfolio, .article-service, .article-strategy, .article-team, .article-wrapper-about, .article-review, .article-project, .article-latest, .footer-text, .copyright-wrapper {
     display: flex;
 }
 
@@ -1034,6 +1040,7 @@ body {
     align-items: center;
     padding-left: 2px;
     margin-right: 8px;
+    color: #fff;
 }
 
 .left-ic {
@@ -1196,6 +1203,121 @@ body {
 .latest-button {
     width: 170px;
     height: 48px;
+    margin-bottom: 128px;
+}
+
+    /* FOOTER */
+    
+/* MAIN TEXT */
+
+.footer {
+    background-color: #3F3836;
+    padding: 76px 135px 53px;
+}
+
+.footer-text {
+    padding-bottom: 69px;
+    border-bottom: 1px #494949 solid;
+}
+
+.footer-text .main-heading {
+    margin-right: 219px;
+}
+
+.footer-text .main-heading-inner {
+    color: #fff;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-column:first-of-type {
+    margin-right: 233px;
+}
+
+.footer-column:nth-of-type(2) {
+    margin-right: 204px;
+}
+
+.footer-heading, .footer-link {
+    font-size: 16px;
+    line-height: 32px;
+    font-family: var(--secondary-font);
+}
+
+.footer-heading {
+    text-transform: uppercase;
+    color: var(--secondary-color);
+    letter-spacing: 1px;
+    margin-bottom: 32px;
+}
+
+.link-wrapper {
+    display: grid;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+.footer .ic-wrapper button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    background: var(--secondary-color);
+    border-radius: 50%;
+    margin-right: 8px;
+    border: 1px var(--secondary-color) solid;
+    cursor: pointer;
+}
+
+.footer .ic-wrapper button::before {
+    font-size: 16px;
+}
+
+.footer .ic-wrapper button:hover {
+    background: transparent;
+}
+
+/* COPYRIGHT TEXT */
+
+.copyright-wrapper {
+    justify-content: space-between;
+    padding: 58px 0 0;
+}
+
+.copyright-wrapper .card-text {
+    color: rgba(255, 255, 255, 0.502972);
+}
+
+.terms-wrapper .card-text {
+    color: #fff;
+}
+
+.terms-wrapper .footer-link:first-of-type {
+    margin-right: 65px;
+}
+
+
+    /* ARROW TOP */
+
+#upbutton {
+    transform: rotate(-90deg);
+    cursor: pointer;
+    position: fixed;
+    right: 36px;
+    bottom: 31px;
+    text-decoration: none;
+    transition: 1s ease;
 }
 
 @media screen and (max-width:375px) {
@@ -1247,7 +1369,7 @@ body {
         border-radius: 2px; 
     }
 
-    .article-wrapper-about, .article-wrapper-company, .article-cards, .article-feature, .article-service, .article-review, .latest-box, .latest-cards  {
+    .article-wrapper-about, .article-wrapper-company, .article-cards, .article-feature, .article-service, .article-review, .latest-box, .latest-cards, .footer-text  {
         flex-direction: column;
     }
 
@@ -1836,6 +1958,40 @@ body {
 
     .latest-card:last-of-type {
         margin-bottom: 0;
+    }
+
+        /* LATEST BUTTON */
+
+    .latest-button {
+        margin-bottom: 112px;
+    }
+
+        /* FOOTER */
+
+    .footer {
+        padding: 76px 23px 69px;
+    }
+
+    .footer-text {
+        padding-bottom: 80px;
+    }
+
+    .footer-column:first-of-type, .footer-column:nth-of-type(2), .footer .main-heading {
+        margin: 0 0 64px;
+    }
+
+    .footer .ic-wrapper {
+        justify-content: start;
+    }
+
+    .copyright-wrapper {
+        padding: 58px 27px 0 26px;
+        flex-direction: column;
+    }
+
+    .copyright-wrapper .card-text {
+        text-align: center;
+        margin-bottom: 32px;
     }
 }
 

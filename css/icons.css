@@ -27,8 +27,8 @@
 
 .icon-arrow-right:before {
   content: "\e900";
-  color: #fff;
 }
+
 .icon-business-wrapper:before {
   content: "\e901";
   color: #fff;
@@ -56,9 +56,8 @@
   content: "\e907";
   color: #4db282;
 }
-.icon-facebook:before {
+.icon-facebook-wrapper:before {
   content: "\e908";
-  color: #fff;
 }
 .icon-instagram1:before {
   content: "\e909";
@@ -100,14 +99,13 @@
   color: #fff;
   font-size: 35px;
 }
-.icon-twitter:before {
+.icon-twitter-wrapper:before {
   content: "\e912";
-  color: #fff;
 }
 .icon-phone:before {
   content: "\e942";
 }
-.icon-instagram:before {
+.icon-instagram-wrapper:before {
   content: "\ea92";
 }
 .icon-telegram:before {
